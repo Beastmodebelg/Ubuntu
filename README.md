@@ -16,6 +16,11 @@ Controleer met het commando **ufw status** of de regel is toegevoegd.
 **ONTBREKENDE PHP MODULES VOOR NEXTCLOUD !**
 **sudo apt-get install php zip libapache2-mod-php php-gd php-json php-mysql php-curl php-mbstring php-intl php-imagick php-xml php-zip php-mysql php-bcmath php-gmp -y**
 
+A record voor nextcloud aanmaken 
+Forward lookup zone nieuwe zone aanmaken
+Dan naam als bijv jlhussle.shrek of nextcloud.local (wat je zelf wilt) als het goed is werkt het dan. Maar dan krijg je** untrusted** domain server**
+om dat te fixen ga je naar ubuntu server en doe je cd var/www/html/nextcloud dan doe je cd config dan doe je sudo nano config.php bijvoorbeeld. Op het examen krijg je waarschijnlijk geen config.php maar een ander bestandje. in dat bestandje pas je alles aan zoals bijvoorbeeld de 2de 0 verander je in een 1 en daarachter zet je je a record naam bijv jlhussle.shrek. dan zou die het moeten doen en vergeet natuurlijk je ip niet te veranderen als ie fout staat.
+
 
 Step 1: Preparing your Ubuntu server
 To begin with, you need a cloud server to run the LAMP stack software. If you are new to UpCloud, have a look at our quick started guide for deploying your first cloud server and how to connect to it.
