@@ -13,6 +13,10 @@ voegen aan de firewall:
 **ufw allow 22/tcp**
 Controleer met het commando **ufw status** of de regel is toegevoegd.
 
+**ONTBREKENDE PHP MODULES VOOR NEXTCLOUD !**
+**sudo apt-get install php zip libapache2-mod-php php-gd php-json php-mysql php-curl php-mbstring php-intl php-imagick php-xml php-zip php-mysql php-bcmath php-gmp -y**
+
+
 Step 1: Preparing your Ubuntu server
 To begin with, you need a cloud server to run the LAMP stack software. If you are new to UpCloud, have a look at our quick started guide for deploying your first cloud server and how to connect to it.
 
