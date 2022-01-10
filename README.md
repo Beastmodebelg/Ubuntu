@@ -89,7 +89,8 @@ Once you’ve confirmed that PHP is working correctly, delete the test file.
 sudo rm /var/www/html/phpinfo.php
 
 
-CIDR	SUBNET MASK	WILDCARD MASK	# OF IP ADDRESSES	# OF USABLE IP ADDRESSES
+	SUBNET MASK prefix
+
 /32	255.255.255.255	
 /31	255.255.255.254	
 /30	255.255.255.252	
