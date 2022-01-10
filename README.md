@@ -88,6 +88,7 @@ Once you’ve confirmed that PHP is working correctly, delete the test file.
 
 sudo rm /var/www/html/phpinfo.php
 
+**welke versie van ubuntu met lsb_release -d of lsb_release -a en php met php -v enz vermelden in testrapport **
 
 	SUBNET MASK prefix
 
