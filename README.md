@@ -90,7 +90,8 @@ sudo rm /var/www/html/phpinfo.php
 
 **welke versie van ubuntu met lsb_release -d of lsb_release -a en php met php -v enz vermelden in testrapport **
 
-	SUBNET MASK prefix
+	
+	subnetten
 
 /32	255.255.255.255	
 /31	255.255.255.254	
