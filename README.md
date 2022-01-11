@@ -90,6 +90,80 @@ sudo rm /var/www/html/phpinfo.php
 
 **welke versie van ubuntu met lsb_release -d of lsb_release -a en php met php -v enz vermelden in testrapport **
 
+virtual Host aanmaken
+
+sudo mkdir -p /var/www/example.com/public_html
+sudo mkdir -p /var/www/test.com/public_html
+
+sudo chown -R $USER:$USER /var/www/example.com/public_html
+sudo chown -R $USER:$USER /var/www/test.com/public_html
+
+sudo chmod -R 755 /var/www/example.com/public_html
+
+nano /var/www/example.com/public_html/index.html
+
+<html>
+  <head>
+    <title>Welcome to Example.com!</title>
+  </head>
+  <body>
+    <h1>Success! The example.com virtual host is working!</h1>
+  </body>
+</html>
+
+cp /var/www/example.com/public_html/index.html /var/www/test.com/public_html/index.html
+
+nano /var/www/test.com/public_html/index.html
+
+<html>
+  <head>
+    <title>Welcome to Test.com!</title>
+  </head>
+  <body> <h1>Success! The test.com virtual host is working!</h1>
+  </body>
+</html>
+
+sudo cp /etc/apache2/sites-available/000-default.conf /etc/apache2/sites-available/example.com.conf
+
+sudo nano /etc/apache2/sites-available/example.com.conf
+
+<VirtualHost *:80>
+    ServerAdmin admin@example.com
+    ServerName example.com
+    ServerAlias www.example.com
+    DocumentRoot /var/www/example.com/public_html
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+sudo cp /etc/apache2/sites-available/example.com.conf /etc/apache2/sites-available/test.com.conf
+
+sudo nano /etc/apache2/sites-available/test.com.conf
+
+<VirtualHost *:80>
+    ServerAdmin admin@test.com
+    ServerName test.com
+    ServerAlias www.test.com
+    DocumentRoot /var/www/test.com/public_html
+    ErrorLog ${APACHE_LOG_DIR}/error.log
+    CustomLog ${APACHE_LOG_DIR}/access.log combined
+</VirtualHost>
+
+sudo a2ensite example.com.conf
+sudo a2ensite test.com.conf
+
+sudo a2dissite 000-default.conf
+
+sudo systemctl restart apache2
+
+sudo nano /etc/hosts
+
+127.0.0.1   localhost
+127.0.1.1   guest-desktop
+your_server_IP example.com
+your_server_IP test.com
+
+
 	
 	subnetten
 
