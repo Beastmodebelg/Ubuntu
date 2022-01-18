@@ -1,4 +1,14 @@
 # Ubuntu
+
+How to install SSH server in Ubuntu
+The procedure to install a ssh server in Ubuntu Linux is as follows:
+
+Open the terminal application for Ubuntu desktop.
+For remote Ubuntu server you must use BMC or KVM or IPMI tool to get console access
+Type sudo apt-get install openssh-server
+Enable the ssh service by typing sudo systemctl enable ssh
+Start the ssh service by typing sudo systemctl start ssh
+
 1. Controleer of de service SSH gestart is met het **commando systemctl status** ssh ** – dit is hetzelfde
 commando als op SUSE en CentOS.
 Als SSH niet aanwezig is, dan moet je deze installeren met het pakketbeheerprogramma **apt-get**
