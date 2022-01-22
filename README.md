@@ -270,6 +270,7 @@ exit
 How to download and unpack the Nextcloud file
 In order to install Nextcloud, we have to first download the necessary zipped file. To do that, issue the command:
 
+wget https://download.nextcloud.com/server/releases/nextcloud-20.0.0.zip
 
 Unpack that file with the command:
 
