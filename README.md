@@ -433,6 +433,10 @@ Testinput
 
 Hierbij word gebruik gemaakt van 2 commando's sudosystemctl start apache2 (om apache2 te activeren) . Sudo systemctl status apache2 (hiermee word de status weergeven van apache2) .
 
+Verwachte output
+
+Er word verwacht om uiteindelijk via de webbrowser van de Windows 10 werkstation op de webpage van apache te komen(https:jouwserverip)
+
 1.1. Functie x
 
 1.1.1. Te testen functionaliteit
