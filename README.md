@@ -363,6 +363,36 @@ After you've entered the information, click Finish Setup. When the installation 
 /1	128.0.0.0		
 /0	0.0.0.0		
 
+1. pwd command Use the pwd command to find out the path of the current working directory (folder) you’re in. 
+2. cd command cd .. (with two dots) to move one directory up
+cd to go straight to the home folder
+cd- (with a hyphen) to move to your previous directory
+3. ls -R will list all the files in the sub-directories as well
+ls -a will show the hidden files
+ls -al will list the files and directories with detailed information like the permissions, size, owner, etc.
+4. cat (short for concatenate) is one of the most frequently used commands in Linux. It is used to list the contents of a file on the standard output (sdout). To run this command, type cat followed by the file’s name and its extension. For instance: cat file.txt.
+5.  rmdir command
+6.  locate command
+find command
+Similar to the locate command, using find also searches for files and directories. The difference is, you use the find command to locate files within a given directory.
+grep command
+Another basic Linux command that is undoubtedly helpful for everyday use is grep. It lets you search through all the text in a given file.
+df command
+Use df command to get a report on the system’s disk space usage, shown in percentage and KBs. If you want to see the report in megabytes, type df -m
+tar command
+The tar command is the most used command to archive multiple files into a tarball — a common Linux file format that is similar to zip format, with compression being optional.
+chmod command
+chmod is another Linux command, used to change the read, write, and execute permissions of files and directories.
+chown command
+In Linux, all files are owned by a specific user. The chown command enables you to change or transfer the ownership of a file to the specified username. For instance, chown linuxuser2 file.ext will make linuxuser2 as the owner of the file.ext.
+ ping command
+Use the ping command to check your connectivity status to a server. For example, by simply entering ping google.com, the command will check whether you’re able to connect to Google and also measure the response time. MAAK EEN SCreenshot van dns a record dat het werkt.
+wget command
+The Linux command line is super useful — you can even download files from the internet with the help of the wget command. To do so, simply type wget followed by the download link.
+echo command
+This command is used to move some data into a file. For example, if you want to add the text, “Hello, my name is John” into a file called name.txt, you would type echo Hello, my name is John >> name.txt
+zip, unzip command
+Use the zip command to compress your files into a zip archive, and use the unzip command to extract the zipped files from a zip archive.
 
 
 **MICHAEL's Manier**
