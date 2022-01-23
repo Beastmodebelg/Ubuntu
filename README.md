@@ -408,6 +408,12 @@ Vergeet niet in t functioneel ontwerp die feedback te doen en in die email memo 
 6	Planning
 Ten eerste ga ik een behoeftanalyse maken. Vervolgens ga ik een functioneel ontwerp maken. Dan maak ik een technisch ontwerp en tot slot maak ik een testrapportage. Als u nog eventuele vragen heeft kunt u mij bereiken.
 
+3 Opdrachtnemer
+De opdracht is gegeven aan AMERSict om eerst een functioneel ontwerp op te stellen en daarna een technisch ontwerp. Uiteindelijk is het de bedoeling dat AMERSict deze infrastructuur gaat realiseren.
+
+4 Opdrachtgever
+De opdrachtgever is A. Mennachi, directeur van X-ProteX, die ook technische vragen afhandelt. Probleemstelling
+
 
 **MICHAEL's Manier**
 # Lintechno
