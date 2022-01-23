@@ -1,5 +1,6 @@
 # Ubuntu
 
+
 How to install SSH server in Ubuntu
 The procedure to install a ssh server in Ubuntu Linux is as follows:
 
@@ -394,6 +395,14 @@ This command is used to move some data into a file. For example, if you want to 
 zip, unzip command
 Use the zip command to compress your files into a zip archive, and use the unzip command to extract the zipped files from a zip archive.
 
+M – Must-haves
+Het gaat hier om het minimale eisenpakket dat vooraf gesteld wordt en waaraan het eindresultaat moet voldoen. Zonder deze eis, faalt het project en is het product niet meer bruikbaar.
+S – Should-haves
+Dit zijn aanvullende en zeer gewenste eisen, die wel een hoge prioriteit hebben, maar geen vereiste zijn voor een bruikbaar eindproduct.
+C – Could-haves
+Als er tijd voor is kunnen deze eisen altijd nog aan bod komen. Zo niet, dan is het geen probleem en heeft het geen nadelig gevolg voor het eindresultaat. De could-haves hebben minder prioriteit dan de should-haves. 
+W – Won’t-haves (en would-haves)
+Het gaat hier om toekomstwensen die vaak niet mogelijk zijn of heel veel tijd kosten om te realiseren. Indien niet mogelijk, dan is het verstandig om geen energie hierin te stoppen.
 
 **MICHAEL's Manier**
 # Lintechno
