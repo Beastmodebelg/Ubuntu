@@ -404,7 +404,10 @@ Als er tijd voor is kunnen deze eisen altijd nog aan bod komen. Zo niet, dan is 
 W – Won’t-haves (en would-haves)
 Het gaat hier om toekomstwensen die vaak niet mogelijk zijn of heel veel tijd kosten om te realiseren. Indien niet mogelijk, dan is het verstandig om geen energie hierin te stoppen.
 
-Vergeet niet in t functioneel ontwerp
+Vergeet niet in t functioneel ontwerp die feedback te doen en in die email memo ook te vragen zodat je doorkan met je technisch ontwerp.
+6	Planning
+Ten eerste ga ik een behoeftanalyse maken. Vervolgens ga ik een functioneel ontwerp maken. Dan maak ik een technisch ontwerp en tot slot maak ik een testrapportage. Als u nog eventuele vragen heeft kunt u mij bereiken.
+
 
 **MICHAEL's Manier**
 # Lintechno
