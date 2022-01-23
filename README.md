@@ -414,6 +414,11 @@ De opdracht is gegeven aan ict amesfoortt om eerst een functioneel ontwerp op te
 4 Opdrachtgever
 De opdrachtgever is g.grappenhuis, directeur van Cola drinks, die ook technische vragen afhandelt. Probleemstelling
 
+Overzicht testomgeving
+
+Hierbij word er gebruik gemaakt van 3 kant en klare virtuele machines. 1 Windows server 2016, 1 Windows 10 werkstation en een ubuntu server 18.0. De ubuntu server is al voorgeïnstalleerd met een apache webserver de apache2 functie is aan het begin niet actief die word in het testproces geactiveerd dit heeft ook betrekking tot de Mariadb functie en php. De Windows server 2016 is
+klaargezet met een dhcp server, dns, er is al een active directory klaargezet met deze machines inclusief de werkstation worden de testprocessen verricht elk proces krijgt een uitleg inclusief een bewijsverklaring indien de desbetreffende functie geslaagd is of niet.
+
 
 **MICHAEL's Manier**
 # Lintechno
