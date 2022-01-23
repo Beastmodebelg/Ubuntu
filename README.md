@@ -420,6 +420,56 @@ Hierbij word er gebruik gemaakt van 3 kant en klare virtuele machines. 1 Windows
 klaargezet met een dhcp server, dns, er is al een active directory klaargezet met deze machines inclusief de werkstation worden de testprocessen verricht elk proces krijgt een uitleg inclusief een bewijsverklaring indien de desbetreffende functie geslaagd is of niet.
 
 
+Testscenario
+Er word hier gebruik gemaakt van een ubuntuserver 18.0 , Windows server 2016 en een Windows 10 consumer edition. Apache2 word eerst geactiveerd en getest. Deze test word uitgevoerd op de ubuntuserver door middel van 2 verschillende commando's 
+
+
+Testscenario om apache2 te testen
+
+
+Wat is het resultaat van de test?
+
+Testinput
+
+Hierbij word gebruik gemaakt van 2 commando's sudosystemctl start apache2 (om apache2 te activeren) . Sudo systemctl status apache2 (hiermee word de status weergeven van apache2) .
+
+1.1. Functie x
+
+1.1.1. Te testen functionaliteit
+
+Beschrijving van de functionaliteit (vaak genoemd in functioneel ontwerp)
+
+Apache is een webbserver die gebruikt kan worden voor webpagina’ je moet uitleggen wat je met de functie gaat doen
+
+
+
+1.1.2. Test scenario
+
+Hoe gaat getest worden of de functie werkt?
+
+Vanuit Linux Ubuntu proberen we apache server te testen met behulp van commando’s en de client verbinden met de webserver je gaat uitleggen hoe je gaat testen binnen je server omgeving
+
+1.1.3. Test input
+
+Welke test-data gaan gebruikt worden?
+
+· Sudo systemctl status apache2 · http://192.168.61.151
+
+je legt uit welke onderdelen je gaat documenteren dus niet alleen ip maar maak er een verhaaltje van
+
+
+
+1.1.4. Verwachte werking\output
+
+Welk resultaat verwacht je van de functie?
+
+Ik verwacht dat de apache webserver volledig werkend is wanneer ik mijn ubuntu ip adres invoer op mijn webbrowser.[.[ dit is prima
+
+1.1.5. Werkelijke werking\output
+
+Wat is het resultaat van de test?
+
+
 **MICHAEL's Manier**
 # Lintechno
 
