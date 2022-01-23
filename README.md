@@ -404,6 +404,8 @@ Als er tijd voor is kunnen deze eisen altijd nog aan bod komen. Zo niet, dan is 
 W – Won’t-haves (en would-haves)
 Het gaat hier om toekomstwensen die vaak niet mogelijk zijn of heel veel tijd kosten om te realiseren. Indien niet mogelijk, dan is het verstandig om geen energie hierin te stoppen.
 
+Vergeet niet in t functioneel ontwerp
+
 **MICHAEL's Manier**
 # Lintechno
 
